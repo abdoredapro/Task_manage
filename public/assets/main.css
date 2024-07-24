@@ -1,0 +1,87 @@
+.cayegory .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.search {padding-top: 20px;padding-bottom: 20px;}
+
+.search .search_input input {
+    border: 1px solid #3498db;
+    outline: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    width: 100%;
+}
+.search select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.search .search_btn {
+    width: 100px;
+    background-color: #e74c3c;
+    color: #FFF;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.search .search_btn  input{
+    background:none;
+    border: none;
+    outline: none;
+    color: #FFF;
+} 
+
+/* Start Info */
+.info {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.info .task_info ul {
+    padding-top: 20px;
+    color: #FFF;
+}
+.info .task_info ul li {
+    flex: 1 0 200px;
+    height: 59px;
+    line-height: 59px;
+    font-weight: 500;
+    padding-left: 24px;
+}
+.info .task_info ul li span {
+    background-color: #FFF;
+    color: #000;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.info .task_info ul li:first-child {
+    background-color: #e74c3c;
+}
+.info .task_info ul li:nth-child(2) {
+    background-color: #2980b9;
+}
+.info .task_info ul li:last-child {
+    background-color: #27ae60;
+}
+
+/* End Info */
+
+/* Start Task */
+.tasks {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.tasks .task {
+    border: 2px solid #95a5a654;
+    padding: 10px 15px;
+    
+}
+/* End Task */
